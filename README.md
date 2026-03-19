@@ -34,8 +34,7 @@ Project live on  🚀: https://ai-resume-builder2.netlify.app/
 
 ## 📸 Screenshots
 
-<img width="1876" height="906" alt="Image" src="https://github.com/user-attachments/assets/66ab2082-9b26-4522-b2fd-b749233b31f7
-
+<img width="1876" height="906" alt="Image" src="https://github.com/user-attachments/assets/66ab2082-9b26-4522-b2fd-b749233b31f7" />
 ---
 
 
