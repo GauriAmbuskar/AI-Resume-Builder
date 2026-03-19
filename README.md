@@ -1,16 +1,70 @@
-# React + Vite
+# 🚀 AI Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **AI-powered Resume Builder** that allows users to create, customize, and download professional resumes instantly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌍 Deployment
 
-## React Compiler
+Project live on  🚀: https://ai-resume-builder2.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🧾 Dynamic resume form (Personal, Education, Experience, Skills, Projects)
+* 🎨 Multiple templates (Classic & Modern)
+* 🌈 Custom theme colors & font selection
+* 📸 Profile photo upload
+* 🔄 Drag & Drop section reordering
+* 👀 Live resume preview
+* 📄 Download resume as high-quality PDF
+* 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Styling:** CSS3 (Custom responsive design)
+* **Libraries:**
+
+  * html2canvas (for screenshot rendering)
+  * jsPDF (for PDF generation)
+
+---
+
+## 📸 Screenshots
+
+<img width="1876" height="906" alt="Image" src="https://github.com/user-attachments/assets/66ab2082-9b26-4522-b2fd-b749233b31f7
+
+---
+
+
+
+## 💡 Future Improvements
+
+* 🤖 AI resume suggestions (GPT integration)
+* 📄 Multiple resume templates
+* 🔐 User authentication
+* ☁️ Save resumes to cloud
+* 📊 ATS score checker
+
+---
+
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Gauri Ambuskar**
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
