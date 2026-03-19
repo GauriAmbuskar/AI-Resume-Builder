@@ -1,0 +1,331 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#f3f6fb;
+color:#1f2937;
+font-family: "Segoe UI", Arial, sans-serif;
+overflow-x: hidden;
+}
+
+/* MAIN LAYOUT */
+
+.builder-container{
+display:flex;
+height:100vh;
+width: 100%;
+}
+
+/* LEFT PANEL (FORM) */
+
+.form-panel{
+width:40%;
+background:#ffffff;
+padding:30px;
+overflow-y:auto;
+border-right:1px solid #e5e7eb;
+}
+
+.form-panel h2{
+margin-bottom:20px;
+color:#111827;
+}
+
+/* RIGHT PANEL (PREVIEW) */
+
+.preview-panel{
+width:60%;
+padding:40px;
+background:#f9fafc;
+overflow-y:auto;
+}
+
+.preview-panel h2{
+    color: #111827;
+}
+
+/* FORM INPUTS */
+
+input,
+textarea{
+width:100%;
+padding:10px 12px;
+margin-bottom:14px;
+border-radius:6px;
+border:1px solid #d1d5db;
+font-size:14px;
+transition:all 0.2s ease;
+}
+
+input:focus,
+textarea:focus{
+outline:none;
+border-color:#2563eb;
+box-shadow:0 0 0 2px rgba(37,99,235,0.15);
+}
+
+/* TEXTAREA */
+
+textarea{
+min-height:90px;
+resize:none;
+}
+
+/* FILE INPUT */
+
+input[type="file"]{
+border:none;
+}
+
+/* RESUME PREVIEW CARD */
+
+.resume-preview{
+ transition: all 0.3s ease;
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* PROFILE PHOTO */
+
+.profile-photo{
+width:110px;
+height:110px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+/* NAME */
+
+.resume-preview h1{
+font-size:28px;
+margin-bottom:6px;
+color:#111827;
+}
+
+/* CONTACT */
+
+.resume-preview p{
+font-size:14px;
+color:#4b5563;
+margin-bottom:6px;
+}
+
+/* SECTION HEADERS */
+
+.resume-preview h3{
+margin-top:20px;
+margin-bottom:8px;
+color:#2563eb;
+font-size:16px;
+border-bottom:1px solid #e5e7eb;
+padding-bottom:4px;
+}
+
+.app-title{
+text-align:center;
+padding:14px;
+background:#2563eb;
+color:white;
+font-size:20px;
+font-weight:600;
+}
+
+/* BUTTON BASE */
+
+button{
+cursor:pointer;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+font-size:14px;
+transition:all 0.25s ease;
+margin-top:6px;
+}
+
+/* ADD BUTTON */
+
+.add-btn{
+background:#22c55e;
+color:white;
+font-weight:500;
+box-shadow:0 3px 8px rgba(72, 221, 127, 0.3);
+}
+
+.add-btn:hover{
+background:#16a34a;
+transform:translateY(-2px);
+box-shadow:0 6px 14px rgba(72, 221, 127, 0.3);
+}
+
+/* DELETE BUTTON */
+
+.delete-btn{
+background:#ef4444;
+color:white;
+margin-top:8px;
+}
+
+.delete-btn:hover{
+background:#dc2626;
+transform:scale(1.05);
+}
+
+/* FORM GROUP CARD */
+
+.form-group{
+background:#f9fafb;
+padding:14px;
+border-radius:8px;
+margin-bottom:12px;
+border:1px solid #e5e7eb;
+}
+
+/* SKILL BAR */
+
+.skill-bar{
+margin-bottom:10px;
+}
+
+.bar{
+width:100%;
+height:8px;
+background:#e5e7eb;
+border-radius:6px;
+margin-top:4px;
+}
+
+.fill{
+height:100%;
+background:#2563eb;
+border-radius:6px;
+transition:width 0.3s ease;
+}
+
+/* PROJECT CARD */
+
+.project-card{
+background:#f9fafb;
+padding:12px;
+border-radius:8px;
+margin-bottom:10px;
+border:1px solid #e5e7eb;
+}
+
+.project-card h4{
+margin-bottom:4px;
+}
+
+/* TAGS */
+
+.tags{
+margin-top:6px;
+}
+
+.tag{
+display:inline-block;
+background:#dbeafe;
+color:#1e40af;
+padding:4px 8px;
+border-radius:6px;
+font-size:12px;
+margin-right:6px;
+}
+
+/* TEMPLATE SWITCH */
+
+.resume-preview.classic{
+background:white;
+color:#111827;
+}
+
+.resume-preview.modern{
+background:#111827;
+color:white;
+}
+
+.resume-preview.modern h3{
+border-bottom:1px solid #374151;
+}
+
+.resume-preview.modern .project-card{
+background:#1f2937;
+border:none;
+}
+
+.resume-preview.modern .bar{
+background:#374151;
+}
+
+.theme-controls{
+display: inline;
+gap:10px;
+margin-bottom:20px;
+}
+
+.theme-controls select,
+.theme-controls input{
+padding:6px;
+border-radius:6px;
+border:1px solid #d1d5db;
+}
+
+.download-btn{
+display: inline;
+height: 8%;
+width: 30%;
+margin-left: 80px;
+background:#2563eb;
+z-index: 1;
+color:white;
+padding:10px 16px;
+border-radius:8px;
+font-weight:500;
+margin-bottom:12px;
+box-shadow:0 4px 12px rgba(37,99,235,0.3);
+transition:all 0.3s ease;
+}
+
+.download-btn:hover{
+background:#1d4ed8;
+transform:translateY(-2px);
+}
+
+#resume{
+width:794px; /* A4 width in px */
+min-height:1123px; /* A4 height */
+margin:auto;
+}
+
+@media print {
+  .download-btn {
+    display:none;
+  }
+}
+
+.draggable-section {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  cursor: grab;
+}
+
+.draggable-section:hover {
+  background: #f3f4f6;
+}
+
+.draggable-section:active {
+  cursor: grabbing;
+  background: #e5e7eb;
+}
